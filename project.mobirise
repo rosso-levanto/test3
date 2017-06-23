@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 18,
+    "uniqCompNum": 23,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -36,6 +36,30 @@
         "html_before": ""
       },
       "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "text-align": "right",
+              "color": "#2b0680"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-m",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#efefef",
+            "showMeta": false
+          },
+          "title": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; РЕКЛАМА В СЕТИ WiFi",
+          "meta": "By John Smith posted July 20, 2016"
+        },
         {
           "_tags": [
             "Theme"
@@ -61,8 +85,8 @@
             "showText": true,
             "showButtons": false
           },
-          "title": "87% людей просмотрят вашу рекламу с радостью",
-          "text": "<span style=\"font-style: normal;\">Радость обеспечит бесплатный доступ к нашей WiFi сети в ТЦ AVE PLAZA, перед подключением к которой необходимо просмотреть в течение <br>всего 10 секунд классный рекламный баннер</span><br>",
+          "title": "87% людей просмотрят вашу рекламу с радостью<br><br>",
+          "text": "<span style=\"font-style: normal;\"><b>Радость обеспечит бесплатный доступ к нашей WiFi сети в ТЦ AVE PLAZA, перед подключением к которой необходимо просмотреть в течение <br>всего 10 секунд классный рекламный баннер</b></span><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_styles": {
             ".mbr-section-title": {
@@ -72,6 +96,10 @@
             },
             ".mbr-section-lead": {
               "color": "#ffffff"
+            },
+            ".mbr-section-lead SPAN": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             }
           }
         },
@@ -124,7 +152,9 @@
             },
             "P": {
               "font-size": "22px",
-              "text-align": "center"
+              "text-align": "center",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             }
           },
           "_name": "features7",
@@ -166,7 +196,7 @@
           },
           "title1": "Bootstrap 4",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "бесплатное пользование WiFi <br>для всех гостей ТРЦ Ave Plaza",
+          "caption1": "бесплатное пользование WiFi <br>для всех гостей ТЦ Ave Plaza",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "iconFont": {
@@ -476,13 +506,13 @@
             "overlay": true,
             "overlayOpacity": "0.7",
             "overlayColor": "#553982",
-            "contentAlign": "left",
+            "contentAlign": "center",
             "showTitle": false,
             "showText": true,
             "showButtons": false
           },
           "title": "Немного о нашей компании:",
-          "text": "Мы занимаемся установкой WiFi оборудования на основе решения американской компании Ruckus Wireless, что обеспечивает лучшие показатели качества доступа к сети Интернет для гостей ТЦ AVE PLAZA. <br>Мы стремимся дать максимально качественный продукт и, заказывая рекламу в нашей сети, вы поддерживаете совершенствование WiFi покрытия г. Харькова.&nbsp;<br>",
+          "text": "<b style=\"font-style: normal;\">Мы занимаемся установкой WiFi оборудования на основе решения американской компании Ruckus Wireless, что обеспечивает лучшие показатели качества доступа к сети Интернет для гостей </b><br><b style=\"font-style: normal;\">ТЦ AVE PLAZA. <br>Мы стремимся дать максимально качественный продукт и, заказывая рекламу в нашей сети, вы поддерживаете совершенствование WiFi покрытия г. Харькова.&nbsp;</b><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_styles": {
             ".mbr-section-title": {
@@ -490,7 +520,12 @@
             },
             ".mbr-section-lead": {
               "color": "#ffffff",
-              "font-size": "36px"
+              "font-size": "36px",
+              "text-align": "center"
+            },
+            ".mbr-section-lead B": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             }
           }
         },
@@ -498,57 +533,44 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts4",
-          "_anchor": "contacts4-g",
+          "_name": "contacts1",
+          "_anchor": "contacts1-k",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2b33",
+            "bgColor": "#2e2e2e",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
-          "text1": "<strong>Адресс:</strong><br>г. Харьков, ул. Чернышевская, 58<br><br><br>\n<strong>Контакты:</strong><br>\nEmail: welcome@wifireklama.com.ua<br>\nPhone: +38 067 570 7068<br><br>",
-          "text2": "",
-          "form": {
-            "title": "MESSAGE",
-            "action": "welcome@wifireklama.com.ua",
-            "alerts": {
-              "success": "Спасибо, что к нам обратились! Мы ответим Вам в самое ближайшее время!"
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "width": 128
             },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": false,
-                "customTitle": "Name*"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": false,
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "wifi",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 0,
+              "active": true,
+              "color": "#ffffff"
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact us</a>",
+          "text1": "Адресс:<br><br>г. Харьков, ул. Чернышевская, 58<br>",
+          "text2": "Контакты:<br><br>Email: welcome@wifireklama.com.ua<br><br>тел.: +38 067 570 70 68<br>",
+          "text3": "",
           "_styles": {
-            "STRONG": {
-              "color": "#ffffff"
-            },
             "P": {
-              "color": "#ffffff"
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "19px"
             }
           }
         }

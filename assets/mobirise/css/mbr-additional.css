@@ -6,6 +6,10 @@
 
 
 
+
+
+
+
 body,
 input,
 textarea,
@@ -413,12 +417,23 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
+#header3-m .mbr-section-title,
+#header3-m .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-m H3 {
+  text-align: right;
+  color: #2b0680;
+}
 #header1-0 .mbr-section-title {
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
 }
 #header1-0 .mbr-section-lead {
   color: #ffffff;
+}
+#header1-0 .mbr-section-lead SPAN {
+  font-family: 'Montserrat', sans-serif;
 }
 #header3-1 .mbr-section-title,
 #header3-1 .mbr-section-subtitle {
@@ -447,6 +462,7 @@ h6,
 #features7-3 P {
   font-size: 22px;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 #msg-box8-8 .mbr-section-title,
 #msg-box8-8 p {
@@ -479,10 +495,12 @@ h6,
 #header1-c .mbr-section-lead {
   color: #ffffff;
   font-size: 36px;
+  text-align: center;
 }
-#contacts4-g STRONG {
-  color: #ffffff;
+#header1-c .mbr-section-lead B {
+  font-family: 'Montserrat', sans-serif;
 }
-#contacts4-g P {
-  color: #ffffff;
+#contacts1-k P {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
 }
